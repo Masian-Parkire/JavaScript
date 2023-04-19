@@ -31,35 +31,9 @@
 
 console.log(sum); 
 
-//Return the number of vowels in a string
-function countVowels(names) {
-  let count = 0;
-  
-  let vowels = ['a','e','i','o','u']
 
-  for (let i = 0; i < names.length; i++) {
-    if (vowels.includes(names[i].toLowerCase())) {
-      count++;
-    }
-  }
 
-  return count;
-}
-names = "My name is Purity and I am A girl"
-console.log(countVowels(names))
 
-//Print a table containing multiplication tables
-function multiTable() {
-  for (let i = 1; i <=12; i++) {
-   let row = ' ';
-   for (let x = 1; x <=12; x++) {
-   row += (i*x) + '\t'
-    
-   }
-    console.log(row);
-  }
-}
-multiTable()
 
 // Create a function that filters out negative numbers
 
